@@ -1,6 +1,6 @@
 import ReactMarkdown from "react-markdown";
 import Link from 'next/link';
-
+import {css} from '@emotion/css';
 import Blog from '../../artifacts/contracts/Blog.sol/Blog.json';
 import {useContext} from "react";
 import {AccountText} from "../../context";
